@@ -73,14 +73,14 @@ public class SplashActivity extends Activity {
 		Intent intent = new Intent();
 		if (isFirstOpen()) {
 			// 首次登陆 跳转到引导界面
-			intent.setClass(getApplicationContext(), null);
+			// intent.setClass(getApplicationContext(), null);
 		} else {
 			// 跳转到主界面
-			intent.setClass(getApplicationContext(), null);
+			// intent.setClass(getApplicationContext(), null);
 
 		}
 
-		startActivity(intent);
+		// startActivity(intent);
 
 	}
 
